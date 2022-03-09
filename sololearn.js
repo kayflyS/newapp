@@ -30,5 +30,5 @@ switch (day) {
         document.write("Wednesday");
         break;
     default:
-        document.write("Another day");
+    console.log("Another day");
 }
