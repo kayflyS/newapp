@@ -1,17 +1,28 @@
 
-    const firstInteger = 4;
-    const secondInteger = 12
     
-    const firstDecimal = 4.0;
-    const secondDecimal= 4.32
+/* L*W = 3*4.5 =13.5
+*   Calculate the area of a rectangle.
+*
+*   length: The length of the rectangle.
+*   width: The width of the rectangle.
+*   
+*	Return a number denoting the rectangle's area.
+**/
+function getArea(length, width) {
    
-    const firstString = 'HackerRank ';
-    const secondString = "is the best place to learn and practice coding"
+   let area;
+   // Write your code here
+   area = length * width  
+   return area;
+}
+let result = getArea(3,4.5)
+console.log(result);
 
-    
-    console.log(firstInteger + Number(secondInteger));
-    
-       console.log(firstDecimal + Number(secondDecimal));
-       console.log(firstString + secondString);
-    
-    
+function getPerimeter(length, width) {
+   let perimeter;
+   // Write your code here
+   perimeter =  2 + (length * width)
+   return perimeter;
+}
+ let answer = getPerimeter(3,4.5)
+console.log(answer);
