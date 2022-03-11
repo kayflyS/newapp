@@ -22,7 +22,7 @@ console.log(result);*/
     }
     timeout();*/
     // DECISION STATEMENTS
-    if (6 > 10){
+    /*if (6 > 10){
         console.log('BADDEST BOY');
     } else if
     (7 > 3){
@@ -32,4 +32,5 @@ console.log(result);*/
     
         else{
            console.log('FLOWERS');
-       }
+       }*/
+          

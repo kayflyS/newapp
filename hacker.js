@@ -12,13 +12,13 @@ console.log(result);
 function getPerimeter(length, width) {
    let perimeter;
    // Write your code here
-   perimeter =  2 + (length * width)
+   perimeter =  2 * (length + width)
    return perimeter;
 }
  let answer = getPerimeter(3,4.5)
 console.log(answer);*/
 
-const firstInterger = 5
+/*const firstInterger = 5
 const firstDecimal = 5.8
 const firstString = "hacker"
 
@@ -30,5 +30,26 @@ console.log(firstInterger + secondInterger);
 
 console.log(firstDecimal + secondDecimal);
 
-console.log(firstString + secondString);
+console.log(firstString + secondString);*/
 
+/*function factorial(n){
+   if(n === 0){
+       return 1;
+   } else{
+       return n * factorial(n-1);
+   }
+}
+let result = factorial(4)
+console.log(result);*/
+
+function factorial(n) {
+   let result = 1;
+   for (let j=n; j > 1; j--){
+      result *= j;
+   }
+   return result;
+   }
+   let answer = factorial(6)
+   console.log(answer);
+   
+ 
