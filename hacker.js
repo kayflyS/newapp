@@ -42,14 +42,26 @@ console.log(firstString + secondString);*/
 let result = factorial(4)
 console.log(result);*/
 
-function factorial(n) {
+/*function factorial(n) {
    let result = 1;
-   for (let j=n; j > 1; j--){
+   for (let j = n; j > 1; j--){
       result *= j;
    }
    return result;
    }
-   let answer = factorial(6)
-   console.log(answer);
+   let answer = factorial(4)
+   console.log(answer);*/
    
- 
+   function vowelsAndConsonants(s) {
+      let vowels = ["a", "e", "i", "o", "u"];
+  
+      for(let v of s) {
+          if(vowels.includes(v))
+              console.log(v);
+      }
+      
+      for(let v of s) {
+          if(!vowels.includes(v))
+              console.log(v);
+      }
+  }
