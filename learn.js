@@ -36,12 +36,25 @@ console.log(result);*/
           
        // Decision
 
-      function countdown
-      () {console.log(6)
-        console.log(5)
-        console.log(4)
-        console.log(3)
-        console.log(2)
-        console.log(1)
+       let lap1 = 34
+       let lap2 = 33
+       let lap3 = 36
+       
+       // Create a function that logs out the sum of all the lap times
+      /*function add() {console.log(lap1 + lap2 + lap3);
+          
       }
-      countdown();
+      add();*/
+
+      let lapsCompleted = 0
+
+// Create a function that increments the lapsCompleted variable with one
+// Run it three times
+function increlap(){
+    lapsCompleted ++
+}
+increlap();
+increlap();
+increlap();
+
+console.log(lapsCompleted)
