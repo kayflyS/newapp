@@ -51,17 +51,21 @@ console.log(result);*/
    }
    let answer = factorial(4)
    console.log(answer);*/
-   
+
+
+
    function vowelsAndConsonants(s) {
-      let vowels = ["a", "e", "i", "o", "u"];
-  
-      for(let v of s) {
-          if(vowels.includes(v))
-              console.log(v);
+      const vowels = 'aeiou';
+      var consonants = '';
+      
+      for(var i = 0; i < s.length; i++) {
+         if (vowels.includes(s[i])) {
+             console.log(s[i]);
+         }
+         else {
+             consonants += s[i] + '\n';
+         }
       }
       
-      for(let v of s) {
-          if(!vowels.includes(v))
-              console.log(v);
-      }
+      console.log(consonants.trim());
   }
