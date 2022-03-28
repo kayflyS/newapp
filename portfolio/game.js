@@ -12,7 +12,7 @@ possibleChoices.forEach(possibleChoice =>possibleChoice.addEventListener('click'
     generateComputerChoice()
 }))
 
-function generteComputerChoice() {
+/*function generteComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3) + 1
     if(randomNumber === 1) {
         computerchoice = 'rock'
@@ -26,8 +26,7 @@ function generteComputerChoice() {
         computerchoice = 'paper'
     }
 
-        computerChoiceD.innerHTML = computerchoice
-
+        computerChoiceD.innerHTML = computerchoice*/
     
     
 }
