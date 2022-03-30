@@ -14,6 +14,7 @@ possibleChoices.forEach(possibleChoice =>possibleChoice.addEventListener('click'
     userChoiceD.innerHTML = userChoice
    
     generateComputerChoice()
+
     getResult()
 }))
 // function to generate commputer choice randomly
@@ -67,7 +68,7 @@ function getResult() {
     }
     
 
-
+    resultD.innerHTML = result
 
    
 
