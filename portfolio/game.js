@@ -14,6 +14,7 @@ possibleChoices.forEach(possibleChoice =>possibleChoice.addEventListener('click'
     userChoiceD.innerHTML = userChoice
    
     generateComputerChoice()
+    getResult()
 }))
 // function to generate commputer choice randomly
 function generateComputerChoice() {
@@ -38,9 +39,8 @@ function getResult() {
     if (computerChoice === userChoice){
         result = "its a draw"
     }
-    if (computerChoice != userChoice){
-        result = "you win"
-    }
+   
+
 }
 
 
