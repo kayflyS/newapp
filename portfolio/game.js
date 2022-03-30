@@ -37,8 +37,38 @@ function generateComputerChoice() {
 // function for the result to access the winner
 function getResult() {
     if (computerChoice === userChoice){
-        result = "its a draw"
+        result = "its a draw!!"
     }
+
+    if (computerChoice === "rock" &&  userChoice === "paper"){
+        result = "you won!!"
+    
+    }
+
+    if (computerChoice === "paper" &&  userChoice === "scissor"){
+        result = "you won!!"
+    
+    }
+    if (computerChoice === "scissor" &&  userChoice === "rock"){
+        result = "you won!!"
+    
+    }
+    if (computerChoice === "rock" &&  userChoice === "scissor"){
+        result = "you lost!!"
+    
+    }
+    if (computerChoice === "paper" &&  userChoice === "rock"){
+        result = "you lost!!"
+    
+    }
+    if (computerChoice === "scissor" &&  userChoice === "paper"){
+        result = "you lost"
+    
+    }
+    
+
+
+
    
 
 }
