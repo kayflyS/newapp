@@ -34,6 +34,13 @@ function generateComputerChoice() {
     computerChoiceD.innerHTML = computerChoice
 }
 // function for the result to access the winner
-
+function getResult() {
+    if (computerChoice === userChoice){
+        result = "its a draw"
+    }
+    if (computerChoice != userChoice){
+        result = "you win"
+    }
+}
 
 
