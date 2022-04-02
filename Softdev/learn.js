@@ -72,7 +72,11 @@ console.log(result);*/
 //         console.log("member of the  justice league"); 
 // }
 
-let a = 1, b = "1" 
-let result = (a ==b ) ? 'equal' : 'inequal';
-console.log(result);
+// let a = 1, b = "1" 
+// let result = (a ==b ) ? 'equal' : 'inequal';
+// console.log(result);
 
+for (let x = 0; x < 10; x++) {
+   
+    console.log(x);
+}
