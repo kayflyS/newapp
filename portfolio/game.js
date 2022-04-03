@@ -75,3 +75,6 @@ function getResult() {
 }
 
 
+function resertGame(){
+    
+}
