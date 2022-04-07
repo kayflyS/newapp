@@ -10,5 +10,5 @@ function printEvens(array) {
     return newArray
 }
 
-    const theArr = [[1,2,3],[4,5,6],[7,8],[9,10,11,12]]
+    const theArr = [[2,3],[4,5,6],[7,8],[9,10,11]]
     console.log(printEvens(theArr));
