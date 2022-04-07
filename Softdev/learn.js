@@ -59,18 +59,18 @@ console.log(result);*/
 
 // console.log(lapsCompleted)
 
-// let hero = "superman"
-// switch (hero) {
-//     case "superman":
-//         console.log("x-ray vision");
-//         break;
-//     case "batman":
-//         console.log("fighting skills");
+let hero = "batman"
+switch (hero) {
+    case "superman":
+        console.log("x-ray vision");
+        break;
+    case "batman":
+        console.log("fighting skills");
 
-//         break;
-//     default:
-//         console.log("member of the  justice league"); 
-// }
+        break;
+    default:
+        console.log("member of the  justice league"); 
+}
 
 // let a = 1, b = "1" 
 // let result = (a ==b ) ? 'equal' : 'inequal';
