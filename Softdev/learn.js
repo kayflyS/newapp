@@ -92,4 +92,10 @@ console.log(result);*/
 // while(x < 10){
 //     console.log(x++);
 
+//     if(x==7)break;
+    
 // }
+let a = 'first'
+function scopeTest(){
+    console.log(a);
+}
