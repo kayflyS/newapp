@@ -99,7 +99,12 @@ let a = 'first'
 function scopeTest(){
 
     console.log(a);
-    let b = 'second'
+    // let b = 'second'
+    if(a!= ' '){
+        console.log(a);
+        let c = "third"
+    }
 }
 scopeTest()
 console.log(b);
+console.log(c);
