@@ -97,6 +97,9 @@ console.log(result);*/
 // }
 let a = 'first'
 function scopeTest(){
+
     console.log(a);
+    let b = 'second'
 }
 scopeTest()
+console.log(b);
