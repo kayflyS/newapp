@@ -1,5 +1,5 @@
-function logThis() {
-    return this;
+// function logThis() {
+//     return this;
     
-}
-logThis();//?
+// }
+// logThis();//?
