@@ -1,7 +1,3 @@
-//var x = 100
-//console.log(x);
-/*var sayHello = 'hello world! \' i am a javascript programmer.\' ';
-console.log(sayHello);*/
 
 //function main() {
     //var distance = parseInt(readLine(), 10);

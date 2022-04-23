@@ -2,7 +2,7 @@ var instructor = {
     firstName: 'Tim',
     info: {
         catOwner:true
-        _boatOwner: true,
+        "_boatOwner": true,
         get boatOwner() {
             return this._boatOwner;
         },
