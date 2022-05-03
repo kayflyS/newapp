@@ -6,4 +6,4 @@ CREATE TABLE book(
     created_on TIMESTAMP
 );
 
--- INSERT INTO book(id ,title,author,year)VALUES('1','Harry potter','j.k rowling','10-10-2001');
+INSERT INTO book(id ,title,author,year)VALUES('1','Harry potter','j.k rowling','10-10-2001');
