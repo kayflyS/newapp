@@ -95,16 +95,22 @@ console.log(result);*/
 //     if(x==7)break;
     
 // }
-let a = 'first'
-function scopeTest(){
+// let a = 'first'
+// function scopeTest(){
 
-    console.log(a);
-    // let b = 'second'
-    if(a!= ' '){
-        console.log(a);
-        let c = "third"
-    }
+//     console.log(a);
+//     // let b = 'second'
+//     if(a!= ' '){
+//         console.log(a);
+//         let c = "third"
+//     }
+// }
+// scopeTest()
+// console.log(b);
+// console.log(c);
+
+function one() {
+    return `one`;
+    
 }
-scopeTest()
-console.log(b);
-console.log(c);
+let value = one(); 
