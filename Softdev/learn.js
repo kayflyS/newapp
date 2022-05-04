@@ -114,3 +114,4 @@ function one() {
     
 }
 let value = one(); 
+console.log(value);
