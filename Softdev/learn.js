@@ -109,9 +109,18 @@ console.log(result);*/
 // console.log(b);
 // console.log(c);
 
-function one() {
-    return `one`;
+// function one() {
+//     return `one`;
     
+// }
+// let value = one(); 
+// console.log(value);
+
+// FUNCTION EXPRESSION INSIDE FUNCTION DECLARATION
+function two() {
+    return function (){
+        console.log('two');
+    }    
 }
-let value = one(); 
-console.log(value);
+let myFunction = two;
+myFunction();
