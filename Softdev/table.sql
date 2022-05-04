@@ -7,6 +7,3 @@ CREATE TABLE book(
 );
 
 INSERT INTO book(id ,title,author,year)VALUES('1','Harry potter','j.k rowling','10-10-2001');
-
-
-c
