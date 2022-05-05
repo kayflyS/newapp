@@ -117,10 +117,10 @@ console.log(result);*/
 // console.log(value);
 
 // FUNCTION EXPRESSION INSIDE FUNCTION DECLARATION
-function two() {
-    return function (){
-        console.log('two');
-    }    
-}
-let myFunction = two;
-myFunction();
+// function two() {
+//     return function (){
+//         console.log('two');
+//     }    
+// }
+// let myFunction = two;
+// myFunction();
