@@ -90,7 +90,7 @@ console.log(result);*/
 
 // let x =1 
 // while(x < 10){
-//     console.log(x++);
+//   console.log(++x);
 
 //     if(x==7)break;
     
@@ -124,3 +124,7 @@ console.log(result);*/
 // }
 // let myFunction = two;
 // myFunction();
+let counter = 1;
+while (counter < 10) {
+    console.log(counter++);
+}
