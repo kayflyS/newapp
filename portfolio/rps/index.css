@@ -1,43 +1,78 @@
-#rps{
-    text-align: center;
-    color: #030303;
-    padding: 15px;
-    font-family: monospace;
-   /* position: absolute;*/
-    background-color: #07050579;
-    font-size: 40px;
-    border-radius: 30px;
-    
-    padding: 15px;
-   /* width: 50%;*/
-    top: 180px;
-    right: 30px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body{
+    background-color: beige;
+}
+.container{
+    height: 350px;
+    text-align: center;
+    margin: 100px auto;
+    background-color: hsl(213, 19%, 18%);
+    width: 500px;
+    border-radius:5px;
+    
+}
+h2{
+    padding:2px;
+
+}
+.choices{
+    color: rgb(253, 244, 0);
+    background-color: rgb(66, 73, 80);
+    width: 70%;
+    text-align: start;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 90px;
+}
+.title{
+    /* background-color: red; */
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 45px;
+    color:whitesmoke;
+    
+}
+.btn{
+    margin-top:40px ;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 15px ;
+    
+    
+}
+
     
 
 #rock {
-    background-color: aqua;
-    /*position: absolute;*/
-    padding: 8px 30px;
+    background-color: brown;
+    padding:5px 20px;
     border-radius: 10px;
-    top: 465px;
     font-size: 30px;
-   font-family: monospace;
+    font-family: cursive;
+    border: none;
+    
 }
 #paper{
-    background-color:lawngreen;
-    padding: 8px 30px;
+    background-color:white;
+    padding:5px 20px;
     border-radius: 10px;
-    top: 465px;
-    font-family: monospace;
+    border: none;
+    font-family: cursive;
     font-size: 30px;
 }
 
 #scissor{
-    background-color: rgba(180, 214, 30, 0.973);
-    padding: 8px 30px;
+    background-color: silver;
+    padding:5px 20px;
     border-radius: 10px;
-    top: 465px;
+    border: none;
     font-size: 30px;
-    font-family: monospace;
+    font-family: cursive;
+    padding: 10px;
 }
