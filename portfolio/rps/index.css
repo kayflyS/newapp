@@ -10,17 +10,17 @@ body{
     height: 350px;
     text-align: center;
     margin: 100px auto;
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsl(213, 72%, 46%);
     width: 500px;
     border-radius:5px;
     
 }
 h2{
-    padding:2px;
+    padding:3px;
 
 }
 .choices{
-    color: rgb(253, 244, 0);
+    color: rgb(232, 231, 215);
     background-color: rgb(66, 73, 80);
     width: 70%;
     text-align: start;
@@ -34,7 +34,7 @@ h2{
     border-radius: 10px;
     width: 100%;
     margin-bottom: 45px;
-    color:whitesmoke;
+    color:rgb(237, 7, 187);
     
 }
 .btn{
@@ -50,7 +50,7 @@ h2{
     
 
 #rock {
-    background-color: brown;
+    background-color: rgba(12, 133, 14, 0.656);
     padding:5px 20px;
     border-radius: 10px;
     font-size: 30px;
