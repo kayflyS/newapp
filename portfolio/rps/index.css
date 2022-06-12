@@ -31,7 +31,7 @@ h2{
 .title{
     /* background-color: red; */
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     width: 100%;
     margin-bottom: 45px;
     color:rgb(237, 7, 187);
@@ -54,7 +54,7 @@ h2{
     padding:5px 20px;
     border-radius: 10px;
     font-size: 30px;
-    font-family: cursive;
+    font-family: fantasy;
     border: none;
     
 }
@@ -63,7 +63,7 @@ h2{
     padding:5px 20px;
     border-radius: 10px;
     border: none;
-    font-family: cursive;
+    font-family: fantasy;
     font-size: 30px;
 }
 
@@ -74,5 +74,5 @@ h2{
     border: none;
     font-size: 30px;
     font-family: cursive;
-    padding: 10px;
+    padding: 12px;
 }
