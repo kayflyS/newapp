@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: beige;
+    background-color:lightgrey;
 }
 .container{
     height: 350px;
@@ -12,12 +12,11 @@ body{
     margin: 100px auto;
     background-color: hsl(213, 72%, 46%);
     width: 500px;
-    border-radius:5px;
-    
+    border-radius:5px;  
 }
 h2{
     padding:3px;
-
+    font-weight: 200;
 }
 .choices{
     color: rgb(232, 231, 215);
@@ -43,8 +42,6 @@ h2{
     justify-content: center;
     justify-content: space-between;
     padding: 15px ;
-    
-    
 }
 
     
@@ -55,8 +52,7 @@ h2{
     border-radius: 10px;
     font-size: 30px;
     font-family: fantasy;
-    border: none;
-    
+    border: none; 
 }
 #paper{
     background-color:white;
