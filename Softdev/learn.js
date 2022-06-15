@@ -124,7 +124,7 @@ console.log(result);*/
 // }
 // let myFunction = two;
 // myFunction();
-let counter = 1;
+let counter = 5;
 while (counter < 10) {
     console.log(counter++);
 }
