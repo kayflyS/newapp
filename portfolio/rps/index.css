@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color:lightgrey;
+    background-color:rgb(172, 80, 80);
 }
 .container{
     height: 350px;
     text-align: center;
     margin: 100px auto;
-    background-color: hsl(213, 72%, 46%);
+    background-color: hsl(213, 32%, 41%);
     width: 500px;
     border-radius:5px;  
 }
@@ -19,8 +19,8 @@ h2{
     font-weight: 200;
 }
 .choices{
-    color: rgb(232, 231, 215);
-    background-color: rgb(66, 73, 80);
+    color: rgb(158, 153, 91);
+    background-color: rgb(74, 121, 169);
     width: 70%;
     text-align: start;
     padding: 15px;
@@ -32,7 +32,7 @@ h2{
     border-radius: 8px;
     width: 100%;
     margin-bottom: 45px;
-    color:rgb(237, 7, 187);
+    color:rgb(146, 65, 128);
     
 }
 .btn{
@@ -46,7 +46,7 @@ h2{
     
 
 #rock {
-    background-color: rgba(12, 133, 14, 0.656);
+    background-color: rgba(77, 143, 78, 0.656);
     padding:5px 20px;
     border-radius: 10px;
     font-size: 30px;
@@ -54,7 +54,7 @@ h2{
     border: none; 
 }
 #paper{
-    background-color:white;
+    background-color:rgb(156, 79, 79);
     padding:5px 20px;
     border-radius: 10px;
     border: none;
