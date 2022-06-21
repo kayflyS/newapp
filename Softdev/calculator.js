@@ -36,5 +36,5 @@ console.log(resultDiv);
 let resultRemainder = calculator(4, 3, remainder);
 console.log(resultRemainder);
 
-let resultExpo = calculator(2, 1, exponential);
-console.log(resultExpo);
+// let resultExpo = calculator(2, 1, exponential);
+// console.log(resultExpo);
