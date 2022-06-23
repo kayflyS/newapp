@@ -72,14 +72,14 @@ setTimeout(function () {
 //         console.log("member of the  justice league"); 
 // }
 
-// let a = 1, b = "1" 
-// let result = (a ==b ) ? 'equal' : 'inequal';
-// console.log(result);
+let a = 1, b = "1" 
+let result = (a ==b ) ? 'equal' : 'inequal';
+console.log(result);
 
-// for (let x = 0; x < 10; x++) {
+for (let x = 0; x < 10; x++) {
    
-//     console.log(x);
-// }
+    console.log(x);
+}
  
 // let a = [4,8,15,16,23,42];
 // for (let i = 0; i < a.length; i++) {
