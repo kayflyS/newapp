@@ -1,18 +1,18 @@
-/*function myTax(amount) {
+function myTax(amount) {
     let newAmount= amount * 2
     return newAmount;
 
     
 }
 let result = myTax(10)
-console.log(result);*/
+console.log(result);
     
-/*setTimeout(function () {
+setTimeout(function () {
     console.log('now');
     
-    },5000); */
+    },5000); 
 
-    /*let counter = 0;
+    let counter = 0;
     function timeout() { 
         setTimeout(function () {
             console.log('HI ' + counter++);
@@ -20,9 +20,9 @@ console.log(result);*/
             
         }, 2000)
     }
-    timeout();*/
+    timeout();
     // DECISION STATEMENTS
-    /*if (6 > 10){
+    if (6 > 10){
         console.log('BADDEST BOY');
     } else if
     (7 > 3){
@@ -32,7 +32,7 @@ console.log(result);*/
     
         else{
            console.log('FLOWERS');
-       }*/
+       }
           
        // Decision
 
