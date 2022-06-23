@@ -102,28 +102,28 @@ console.log(result);*/
 //     // let b = 'second'
 //     if(a!= ' '){
 //         console.log(a);
-//         let c = "third"
-//     }
-// }
-// scopeTest()
-// console.log(b);
-// console.log(c);
+        let c = "third"
+    }
+}
+scopeTest()
+console.log(b);
+console.log(c);
 
-// function one() {
-//     return `one`;
+function one() {
+    return `one`;
     
-// }
-// let value = one(); 
-// console.log(value);
+}
+let value = one(); 
+console.log(value);
 
-// FUNCTION EXPRESSION INSIDE FUNCTION DECLARATION
-// function two() {
-//     return function (){
-//         console.log('two');
-//     }    
-// }
-// let myFunction = two;
-// myFunction();
+FUNCTION EXPRESSION INSIDE FUNCTION DECLARATION
+function two() {
+    return function (){
+        console.log('two');
+    }    
+}
+let myFunction = two;
+myFunction();
 let counter = 5;
 while (counter < 10) {
     console.log(counter++);
