@@ -1,4 +1,4 @@
-/*unction factorial(n){
+function factorial(n){
     if(n === 0){
         return 1;
     }else{
@@ -6,7 +6,7 @@
     }
 }
 let result = factorial(4)
-console.log(result);*/
+console.log(result);
 const factorialOf = integer => {
     let factorial = 1;
   
