@@ -88,13 +88,13 @@ for (let i = 0; i < a.length; i++) {
 }
 
 
-// let x =1 
-// while(x < 10){
-//   console.log(++x);
+let x =1 
+while(x < 10){
+  console.log(++x);
 
-//     if(x==7)break;
+    if(x==7)break;
     
-// }
+}
 // let a = 'first'
 // function scopeTest(){
 
