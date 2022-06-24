@@ -81,11 +81,11 @@ for (let x = 0; x < 10; x++) {
     console.log(x);
 }
  
-// let a = [4,8,15,16,23,42];
-// for (let i = 0; i < a.length; i++) {
+let a = [4,8,15,16,23,42];
+for (let i = 0; i < a.length; i++) {
     
-//     console.log(a[i]);
-// }
+    console.log(a[i]);
+}
 
 
 // let x =1 
