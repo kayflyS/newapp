@@ -95,13 +95,13 @@ while(x < 10){
     if(x==7)break;
     
 }
-// let a = 'first'
-// function scopeTest(){
+let a = 'first'
+function scopeTest(){
 
-//     console.log(a);
-//     // let b = 'second'
-//     if(a!= ' '){
-//         console.log(a);
+    console.log(a);
+    // let b = 'second'
+    if(a!= ' '){
+        console.log(a);
         let c = "third"
     }
 }
