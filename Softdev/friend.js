@@ -1,12 +1,12 @@
-// var friend = {
-//     firstName: "Ash" ,
-//     sayHi:
-//     function() {
-//         return this.firstName+ "says hello!";
+var friend = {
+    firstName: "Ash" ,
+    sayHi:
+    function() {
+        return this.firstName+ "says hello!";
         
-//     }
-// };
-// friend.sayHi()
+    }
+};
+friend.sayHi()
 
 var dog = {
     name: "whiskey",
