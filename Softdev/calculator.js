@@ -12,12 +12,12 @@ const add = (num1, num2) => num1 + num2;
 const subtract = (num1, num2) => num1 - num2;
 
 //division
-const division = (num1, num2) => {
-  if (num2 === 0) {
-    return `Error enter denominator greater than 0`;
-  }
-  return num1 / num2;
-};
+// const division = (num1, num2) => {
+//   if (num2 === 0) {
+//     return `Error enter denominator greater than 0`;
+//   }
+//   return num1 / num2;
+// };
 
 //exponential
 const exponential = (num1, num2)  => num1 ** num2
