@@ -105,23 +105,23 @@ function scopeTest(){
         let c = "third"
     }
 }
-// scopeTest()
-// console.log(b);
-// console.log(c);
+scopeTest()
+console.log(b);
+console.log(c);
 
-// function one() {
-//     return `one`;
+function one() {
+    return `one`;
     
-// }
-// let value = one(); 
-// console.log(value);
+}
+let value = one(); 
+console.log(value);
 
-// FUNCTION EXPRESSION INSIDE FUNCTION DECLARATION
-// function two() {
-//     return function (){
-//         console.log('two');
-//     }    
-// }
+FUNCTION EXPRESSION INSIDE FUNCTION DECLARATION
+function two() {
+    return function (){
+        console.log('two');
+    }    
+}
 // let myFunction = two;
 // myFunction();
 // let counter = 5;
