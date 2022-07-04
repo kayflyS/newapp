@@ -46,31 +46,31 @@ setTimeout(function () {
       }
       add();
 
-    //   let lapsCompleted = 0
+      let lapsCompleted = 0
 
-// Create a function that increments the lapsCompleted variable with one
-// Run it three times
-// function increlap(){
-//     lapsCompleted ++
-// }
-// increlap();
-// increlap();
-// increlap();
+Create a function that increments the lapsCompleted variable with one
+Run it three times
+function increlap(){
+    lapsCompleted ++
+}
+increlap();
+increlap();
+increlap();
 
-// console.log(lapsCompleted)
+console.log(lapsCompleted)
 
-// let hero = "batman"
-// switch (hero) {
-//     case "superman":
-//         console.log("x-ray vision");
-//         break;
-//     case "batman":
-//         console.log("fighting skills");
+let hero = "batman"
+switch (hero) {
+    case "superman":
+        console.log("x-ray vision");
+        break;
+    case "batman":
+        console.log("fighting skills");
 
-//         break;
-//     default:
-//         console.log("member of the  justice league"); 
-// }
+        break;
+    default:
+        console.log("member of the  justice league"); 
+}
 
 let a = 1, b = "1" 
 let result = (a ==b ) ? 'equal' : 'inequal';
