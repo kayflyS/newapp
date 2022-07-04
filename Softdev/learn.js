@@ -48,16 +48,16 @@ setTimeout(function () {
 
       let lapsCompleted = 0
 
-Create a function that increments the lapsCompleted variable with one
-Run it three times
-function increlap(){
-    lapsCompleted ++
-}
-increlap();
-increlap();
-increlap();
+// Create a function that increments the lapsCompleted variable with one
+// Run it three times
+// function increlap(){
+//     lapsCompleted ++
+// }
+// increlap();
+// increlap();
+// increlap();
 
-console.log(lapsCompleted)
+// console.log(lapsCompleted)
 
 let hero = "batman"
 switch (hero) {
