@@ -72,56 +72,56 @@ switch (hero) {
         console.log("member of the  justice league"); 
 }
 
-let a = 1, b = "1" 
-let result = (a ==b ) ? 'equal' : 'inequal';
-console.log(result);
+// let a = 1, b = "1" 
+// let result = (a ==b ) ? 'equal' : 'inequal';
+// console.log(result);
 
-for (let x = 0; x < 10; x++) {
+// for (let x = 0; x < 10; x++) {
    
-    console.log(x);
-}
+//     console.log(x);
+// }
  
-let a = [4,8,15,16,23,42];
-for (let i = 0; i < a.length; i++) {
+// let a = [4,8,15,16,23,42];
+// for (let i = 0; i < a.length; i++) {
     
-    console.log(a[i]);
-}
+//     console.log(a[i]);
+// }
 
 
-let x =1 
-while(x < 10){
-  console.log(++x);
+// let x =1 
+// while(x < 10){
+//   console.log(++x);
 
-    if(x==7)break;
+//     if(x==7)break;
     
-}
-let a = 'first'
-function scopeTest(){
+// }
+// let a = 'first'
+// function scopeTest(){
 
-    console.log(a);
-    // let b = 'second'
-    if(a!= ' '){
-        console.log(a);
-        let c = "third"
-    }
-}
-scopeTest()
-console.log(b);
-console.log(c);
+//     console.log(a);
+//     // let b = 'second'
+//     if(a!= ' '){
+//         console.log(a);
+//         let c = "third"
+//     }
+// }
+// scopeTest()
+// console.log(b);
+// console.log(c);
 
-function one() {
-    return `one`;
+// function one() {
+//     return `one`;
     
-}
-let value = one(); 
-console.log(value);
+// }
+// let value = one(); 
+// console.log(value);
 
-FUNCTION EXPRESSION INSIDE FUNCTION DECLARATION
-function two() {
-    return function (){
-        console.log('two');
-    }    
-}
+// FUNCTION EXPRESSION INSIDE FUNCTION DECLARATION
+// function two() {
+//     return function (){
+//         console.log('two');
+//     }    
+//}
 // let myFunction = two;
 // myFunction();
 // let counter = 5;
