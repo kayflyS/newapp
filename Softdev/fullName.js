@@ -1,8 +1,8 @@
-var fullName = 'john doe';
+var fullName = 'andy muller';
 var obj = {
-    fullName:'colin ihrig',
+    fullName:'colin fuller',
     prop: {
-        fullName:'aurelio de rosa',
+        fullName:'aurelio de rosa mendes',
         getFullName: function() {
             return this.fullName
         }
