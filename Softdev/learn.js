@@ -72,63 +72,63 @@
 //         console.log("member of the  justice league"); 
 // }
 
-let a = 1, b = "1" 
-let result = (a ==b ) ? 'equal' : 'inequal';
-console.log(result);
-
-for (let x = 0; x < 10; x++) {
-   
-    console.log(x);
-}
- 
-let a = [4,8,15,16,23,42];
-for (let i = 0; i < a.length; i++) {
-    
-    console.log(a[i]);
-}
-
-
-let x =1 
-while(x < 10){
-  console.log(++x);
-
-    if(x==7)break;
-    
-}
-let a = 'first'
-function scopeTest(){
-
-    console.log(a);
-    // let b = 'second'
-    if(a!= ' '){
-        console.log(a);
-        let c = "third"
-    }
-}
-scopeTest()
-console.log(b);
-console.log(c);
-
-function one() {
-    return `one`;
-    
-}
-let value = one(); 
-console.log(value);
-
-//FUNCTION EXPRESSION INSIDE FUNCTION DECLARATION
-function two() {
-    return function (){
-        console.log('two');
-    }    
-}
-let myFunction = two;
-myFunction();
-let counter = 5;
-while (counter < 10) {
-    console.log(counter++);
-}
-// ternary
-// let w=1 , b='1';
-// let result = (a != b) ? 'not equal' : 'equal'
+// let a = 1, b = "1" 
+// let result = (a ==b ) ? 'equal' : 'inequal';
 // console.log(result);
+
+// for (let x = 0; x < 10; x++) {
+   
+//     console.log(x);
+// }
+ 
+// let a = [4,8,15,16,23,42];
+// for (let i = 0; i < a.length; i++) {
+    
+//     console.log(a[i]);
+// }
+
+
+// let x =1 
+// while(x < 10){
+//   console.log(++x);
+
+//     if(x==7)break;
+    
+// }
+// let a = 'first'
+// function scopeTest(){
+
+//     console.log(a);
+//     // let b = 'second'
+//     if(a!= ' '){
+//         console.log(a);
+//         let c = "third"
+//     }
+// }
+// scopeTest()
+// console.log(b);
+// console.log(c);
+
+// function one() {
+//     return `one`;
+    
+// }
+// let value = one(); 
+// console.log(value);
+
+// //FUNCTION EXPRESSION INSIDE FUNCTION DECLARATION
+// function two() {
+//     return function (){
+//         console.log('two');
+//     }    
+// }
+// let myFunction = two;
+// myFunction();
+// let counter = 5;
+// while (counter < 10) {
+//     console.log(counter++);
+// }
+// // ternary
+// // let w=1 , b='1';
+// // let result = (a != b) ? 'not equal' : 'equal'
+// // console.log(result);
