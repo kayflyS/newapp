@@ -42,15 +42,15 @@
 // let result = factorial(4)
 // console.log(result);
 
-// function factorial(n) {
-//    let result = 1;
-//    for (let j = n; j > 1; j--){
-//       result *= j;
-//    }
-//    return result;
-//    }
-//    let answer = factorial(4)
-//    console.log(answer);
+function factorial(n) {
+   let result = 1;
+   for (let j = n; j > 1; j--){
+      result *= j;
+   }
+   return result;
+   }
+   let answer = factorial(4)
+   console.log(answer);
 
 
 
