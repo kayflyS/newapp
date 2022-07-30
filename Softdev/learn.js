@@ -117,18 +117,18 @@
 // console.log(value);
 
 //FUNCTION EXPRESSION INSIDE FUNCTION DECLARATION
-function two() {
-    return function (){
-        console.log('two');
-    }    
-}
-let myFunction = two;
-myFunction();
-let counter = 5;
-while (counter < 10) {
-    console.log(counter++);
-}
-ternary
-let w=1 , b='1';
-let result = (a != b) ? 'not equal' : 'equal'
-console.log(result);
+// function two() {
+//     return function (){
+//         console.log('two');
+//     }    
+// }
+// let myFunction = two;
+// myFunction();
+// let counter = 5;
+// while (counter < 10) {
+//     console.log(counter++);
+// }
+// ternary
+// let w=1 , b='1';
+// let result = (a != b) ? 'not equal' : 'equal'
+// console.log(result);
