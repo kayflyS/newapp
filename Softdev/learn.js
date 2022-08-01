@@ -23,24 +23,24 @@
 //     timeout();
 
 
-    DECISION STATEMENTS
-    if (6 > 10){
-        console.log('BADDEST BOY');
-    } else if
-    (7 > 3){
-        console.log('hello world');
-    }
+    // DECISION STATEMENTS
+    // if (6 > 10){
+    //     console.log('BADDEST BOY');
+    // } else if
+    // (7 > 3){
+    //     console.log('hello world');
+    // }
 
     
-        else{
-           console.log('FLOWERS');
-       }
+    //     else{
+    //        console.log('FLOWERS');
+    //    }
           
-       Decision
+    //    Decision
 
-       let lap1 = 34
-       let lap2 = 33
-       let lap3 = 36
+    //    let lap1 = 34
+    //    let lap2 = 33
+    //    let lap3 = 36
        
 //        // Create a function that logs out the sum of all the lap times
 //       function add() {console.log(lap1 + lap2 + lap3);
