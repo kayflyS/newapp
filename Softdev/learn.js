@@ -1,11 +1,11 @@
-// function myTax(amount) {
-//     let newAmount= amount * 2
-//     return newAmount;
+function myTax(amount) {
+    let newAmount= amount * 2
+    return newAmount;
 
     
-// }
-// let result = myTax(10)
-// console.log(result);
+}
+let result = myTax(10)
+console.log(result);
     
 // setTimeout(function () {
 //     console.log('now');
