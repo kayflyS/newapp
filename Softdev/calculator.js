@@ -24,7 +24,7 @@ const exponential = (num1, num2)  => num1 ** num2
 
 const remainder = (num1, num2) => num1 % num2;
 
-let resultAdd = calculator(10, 5, add);
+let resultAdd = calculator(101, 50, add);
 console.log(resultAdd);
 
 let resultSub = calculator(60, 40, subtract);
