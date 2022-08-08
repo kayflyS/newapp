@@ -42,32 +42,32 @@
 // let result = factorial(4)
 // console.log(result);
 
-// function factorial(n) {
-//    let result = 1;
-//    for (let j = n; j > 1; j--){
-//       result *= j;
-//    }
-//    return result;
-//    }
-//    let answer = factorial(4)
-//    console.log(answer);
+function factorial(n) {
+   let result = 1;
+   for (let j = n; j > 1; j--){
+      result *= j;
+   }
+   return result;
+   }
+   let answer = factorial(4)
+   console.log(answer);
 
 
 
-   function vowelsAndConsonants(s) {
-      const vowels = 'aeiou';
-      var consonants = '';
+//    function vowelsAndConsonants(s) {
+//       const vowels = 'aeiou';
+//       var consonants = '';
       
-      for(var i = 0; i < s.length; i++) {
-         if (vowels.includes(s[i])) {
-             console.log(s[i]);
-         }
-         else {
-             consonants += s[i] + '\n';
-         }
-      }
+//       for(var i = 0; i < s.length; i++) {
+//          if (vowels.includes(s[i])) {
+//              console.log(s[i]);
+//          }
+//          else {
+//              consonants += s[i] + '\n';
+//          }
+//       }
       
-      console.log(consonants.trim());
-  }
+//       console.log(consonants.trim());
+//   }
 
 
