@@ -8,12 +8,12 @@
 //     console.log(timeInMinutes);
 // }
 
-// let num1 = 7;
-// let num2 = 8;
-// if (num1 > num2) {console.log//('WHAT THE FUCK'); }  
-// else {console.log("mango");
+let num1 = 7;
+let num2 = 8;
+if (num1 > num2) {console.log//('WHAT THE FUCK'); }  
+else {console.log("mango");
 
-// }
+}
 // var day = 2;
 // switch (day) {
 //     case 1:
