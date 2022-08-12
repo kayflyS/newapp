@@ -12,15 +12,15 @@ setTimeout(function () {
     
     },5000); 
 
-//     let counter = 0;
-//     function timeout() { 
-//         setTimeout(function () {
-//             console.log('HI ' + counter++);
+    let counter = 0;
+    function timeout() { 
+        setTimeout(function () {
+            console.log('HI ' + counter++);
 
             
-//         }, 2000)
-//     }
-//     timeout();
+        }, 2000)
+    }
+    timeout();
 
 
     // DECISION STATEMENTS
