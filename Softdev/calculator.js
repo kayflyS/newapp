@@ -24,10 +24,10 @@ const exponential = (num1, num2)  => num1 ** num2
 
 const remainder = (num1, num2) => num1 % num2;
 
-let resultAdd = calculator(101, 50, add);
+let resultAdd = calculator(100, 50, add);
 console.log(resultAdd);
 
-let resultSub = calculator(60, 40, subtract);
+let resultSub = calculator(6, 4, subtract);
 console.log(resultSub);
 
 let resultDiv = calculator(80, 4, division);
