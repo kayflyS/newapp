@@ -1,13 +1,13 @@
 
-// function getArea(length, width) {
+function getArea(length, width) {
    
-//    let area;
-//    // Write your code here
-//    area = length * width  
-//    return area;
-// }
-// let result = getArea(3,4.5)
-// console.log(result);
+   let area;
+   // Write your code here
+   area = length * width  
+   return area;
+}
+let result = getArea(3,4.5)
+console.log(result);
 
 // function getPerimeter(length, width) {
 //    let perimeter;
